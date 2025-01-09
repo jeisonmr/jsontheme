@@ -1,4 +1,4 @@
-=== MyTheme ===
+=== JsonTheme ===
 Contributors: Jeison Muñoz
 Tags: blog, portfolio, responsive, accessibility-ready, custom-logo, dark-mode
 Requires at least: 6.0
@@ -30,14 +30,12 @@ Es perfecto para bloggers, desarrolladores y negocios que buscan un diseño limp
 
 == Requisitos ==
 - WordPress 6.0 o superior.
-- PHP 8.0 o superior.
+- PHP 8.2.20 o superior.
 - Un navegador moderno (Chrome, Firefox, Edge, Brave, etc.).
 
 == Instalación ==
 1. Descarga el tema desde el repositorio oficial o desde tu panel de administración de WordPress.
 2. Ve a **Apariencia > Temas > Añadir nuevo**.
-3. Haz clic en "Subir tema" si tienes un archivo `.zip`, o busca "MyTheme" en el repositorio.
+3. Haz clic en "Subir tema" si tienes un archivo `.zip`, o busca "JsonTheme" en el repositorio.
 4. Activa el tema.
 5. Personaliza el tema desde **Apariencia > Personalizar**.
-
-== Estructura del Tema ==

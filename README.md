@@ -1,6 +1,6 @@
 ﻿# JsonTheme
 
-JSONTheme es un tema de WordPress moderno que utiliza **Vite** para manejar los activos estáticos como JavaScript, CSS y SCSS. Está diseñado para ofrecer un flujo de trabajo eficiente y una experiencia de desarrollo rápida.
+Es un tema de WordPress moderno que utiliza **Vite** para manejar los activos estáticos como JavaScript, CSS y SCSS. Está diseñado para ofrecer un flujo de trabajo eficiente y una experiencia de desarrollo rápida.
 
 ## 🚀 Características
 
@@ -29,9 +29,9 @@ wp-content/themes/jsontheme
 ├── package.json          # Configuración de npm
 ├── vite.config.js        # Configuración de Vite
 └── README.md             # Documentación del proyecto
+```
 
-
-🛠️ Configuración
+## 🛠️ Configuración
 1. Requisitos previos
 Asegúrate de tener instalados:
 
@@ -51,7 +51,9 @@ Instala las dependencias necesarias:
 bash
 Copiar código
 npm install
-🧑‍💻 Desarrollo
+
+
+## 🧑‍💻 Desarrollo
 Inicia el servidor de desarrollo
 Ejecuta el siguiente comando para iniciar el servidor de desarrollo con recarga en vivo:
 
@@ -63,7 +65,8 @@ Esto iniciará Vite en el puerto 5173 y cargará los activos desde el servidor d
 Carga en WordPress
 Asegúrate de que WordPress esté ejecutándose en tu entorno local. Vite cargará los recursos directamente desde su servidor durante el desarrollo.
 
-📦 Producción
+
+## 📦 Producción
 Cuando estés listo para desplegar el tema, genera los archivos optimizados para producción:
 
 bash
@@ -71,14 +74,18 @@ Copiar código
 npm run build
 Los archivos optimizados se colocarán en la carpeta dist/. WordPress cargará automáticamente estos archivos en lugar de los del servidor de desarrollo.
 
-⚙️ Configuración personalizada
+
+## ⚙️ Configuración personalizada
 Modificar la configuración de Vite
 La configuración de Vite se encuentra en el archivo vite.config.js. Puedes personalizarla según tus necesidades, por ejemplo, para agregar soporte a librerías como Tailwind CSS, PostCSS, o manejar otros tipos de archivos.
 
-📝 Notas importantes
+
+## 📝 Notas importantes
 Durante el desarrollo, asegúrate de que el servidor de Vite está corriendo para cargar correctamente los activos.
 En producción, los activos optimizados en dist/ serán cargados automáticamente por WordPress.
-✨ Créditos
+
+
+## ✨ Créditos
 Autor: [Tu Nombre]
 Licencia: [ISC o la que prefieras]
 Basado en WordPress y Vite.
